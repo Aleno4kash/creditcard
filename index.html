@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<!-- backgroud-->
+ 			<div class="rect_right"></div>
+			<div class="triangle">		
+    			<div class="triangle__inner"></div>
+			</div>
+			<div class="rect_left"></div>
+			<!-- end backgroud-->
+
+			<!-- blank-->
+			<div class="main_form">
+				<form class="blank">
+
+					<!-- blank price list-->
+					<div class="blank__column">
+						<h5>Total</h5>
+						<div class="blank_price">$898</div>
+						<h5>Detail</h5>
+						<div class="blank_list">
+							<div class="col-md-7 left">
+								 iPad Pro
+							</div>
+							<div class="col-md-2 right">
+								  $799
+							</div>
+							<div class="col-md-7 left">
+								 Apple Pencil
+							</div>
+							<div class="col-md-2 right">
+								$99
+							</div>
+						</div>
+						<button class="blank_but" type="button">PAY NOW</button>
+					</div>
+					<!-- end blank price list-->
+
+					<!-- blank entering card-->
+					<div class="blank__card">
+						<img class="card_icon">
+						<h5>Carly Ling</h5>
+						 <div class="col-md-12 col-sm-12 ">
+							<p>Credit Card Number</p>
+							<input type="text" class="credit_card" pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" placeholder="**** **** **** ****">
+						  </div>
+						  <div class="col-md-6 col-sm-12 left_side">
+							<p>Expiration</p>
+							<input type="text" class="expiration" placeholder="month  yyyy">
+						  </div>
+						 <div class="col-md-6 col-sm-12 right_side">	
+							<p>CVV</p>
+							<input type="text" class="cvv" pattern="[0-9]{3}" placeholder="***">
+						 </div>
+					</div>
+					<!-- end blank entering card-->
+
+				</form>
+			</div>
+			<!-- end blank-->
+		</div>
+	</div>
+
+<script src="js/scripts.min.js"></script>	
+<script src="js/jquery.maskedinput.min.js"></script>
+</body>
+</html>
